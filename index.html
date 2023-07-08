@@ -15,62 +15,57 @@
   </head>
   <body>
 
-    <!-- Hero -->
-  <div class="main">
-      <div class="main__container">
-        <video autoPlay loop muted id="video" class="video__container">
+     <!-- Navbar section -->
+     <nav class="navbar">
+      <div class="navbar__container">
+          <a href="/" >
+              <img src="./assets/images/logo.png" id="navbar__logo" alt="logo" >
+          </a>
+
+          <!-- <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div> -->
+
+            <ul class="navbar__menu">
+              <li class="navbar_item">
+                  <a href="/" class="navbar__links">Features</a>
+              </li>
+              <li class="navbar_item">
+                  <a href="/" class="navbar__links">Integrations</a>
+              </li>
+              <li class="navbar_item">
+                  <a href="/" class="navbar__links">About</a>
+              </li>
+              <li class="navbar_item">
+                  <a href="/" class="navbar__links">Pricing</a>
+              </li>
+            </ul>
+
+            <button class="navbar__button">Sign in</button>
+
+      </div>
+  </nav>
+
+    <div class="main__container">
+        <div class="video__container">
+          <video autoplay loop muted id="video">
             <source src="assets/videos/team.mp4" type="video/mp4" />
           </video>
-
-
-    <!-- Navbar section -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" >
-                <img src="./assets/images/logo.png" id="navbar__logo" alt="logo" >
-            </a>
-
-            <!-- <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span> <span class="bar"></span>
-                <span class="bar"></span>
-              </div> -->
-
-              <ul class="navbar__menu">
-                <li class="navbar_item">
-                    <a href="/" class="navbar__links">Features</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/" class="navbar__links">Integrations</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/" class="navbar__links">About</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/" class="navbar__links">Pricing</a>
-                </li>
-              </ul>
-
-              <button class="navbar__button">Sign in</button>
-
         </div>
-    </nav>
+      
+        <div class="content__container">
+          <p id="main__content--super-tagline">Strong team means Stronger Organizations</p>
+          <p id="main__content--sub-tagline">With Recruitly, Build your team!</p>
+          <button id="main__content--button">Try For Free</button>
+        </div>
+      </div>
+      
 
-    <!-- hero content -->
     
-    <div class="main__content--container">
-        <p id="main__content--super-tagline">Strong team means Stronger Organizations</p>
-        <!-- <p>With Recruitly</p> -->
-        <p id="main__content--sub-tagline">With Recruitly, Build your team! </p>
-        <button id="main__content--button">
-            Try For Free
-        </button>
-    </div>
-
-    </div>
-
-</div>
-
-
+   
 
   </body>
+
+  <script src="./js/index.js"></script>
 </html>
