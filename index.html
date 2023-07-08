@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recruitly</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/53230acac9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Hero -->
+  <div class="main">
+      <div class="main__container">
+        <video autoPlay loop muted id="video" class="video__container">
+            <source src="assets/videos/team.mp4" type="video/mp4" />
+          </video>
+
+
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" >
+                <img src="./assets/images/logo.png" id="navbar__logo" alt="logo" >
+            </a>
+
+            <!-- <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div> -->
+
+              <ul class="navbar__menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar__links">Features</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar__links">Integrations</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar__links">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar__links">Pricing</a>
+                </li>
+              </ul>
+
+              <button class="navbar__button">Sign in</button>
+
+        </div>
+    </nav>
+
+    <!-- hero content -->
     
-</body>
+    <div class="main__content--container">
+        <p id="main__content--super-tagline">Strong team means Stronger Organizations</p>
+        <!-- <p>With Recruitly</p> -->
+        <p id="main__content--sub-tagline">With Recruitly, Build your team! </p>
+        <button id="main__content--button">
+            Try For Free
+        </button>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+  </body>
 </html>
