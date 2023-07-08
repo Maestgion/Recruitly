@@ -80,7 +80,7 @@
    font-weight: bold;
    border-radius: 30px;
    font-size: 1rem;
-
+  cursor: pointer;
  }
  
  .navbar__button:hover {
@@ -89,7 +89,7 @@
  }
  
  .navbar__links:hover {
-   color: #f77062;
+   color: #F97316;
    transition: all 0.3s ease;
  }
 
@@ -132,11 +132,14 @@
     /* margin-top: -100px; */
     font-size: 5vh;
     color: #F97316;
+    text-align: center;
   }
   
   #main__content--sub-tagline {
     font-size: 3vh;
     color: #000;
+    text-align: center;
+
   }
   
   #main__content--button {
@@ -151,6 +154,7 @@
     border-radius: 30px;
     font-size: 1.2rem;
     cursor: pointer;
+    text-align: center;
   }
   
   #main__content--button:hover {
@@ -207,4 +211,85 @@
     }
     
   }
+
+  .timeline > h2{
+    margin-top: 10vh;
+    text-align: center;
+  }
+
+
+  .timeline__container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .timeline__container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #000;
+ }
+ 
+ .timeline__block {
+    width: calc(50% + 8px);
+    display: flex; 
+    justify-content: space-between;
+    clear: both;
+ }
+ 
+ .timeline__block__right {
+    float: right;
+ }
+ 
+ .timeline__block__left {
+    float: left;
+    direction: rtl
+ }
+ 
+ .marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #F97316;
+    margin-top: 10px;
+    z-index: 1
+ }
+ 
+ .timeline__content {
+    width: 95%;
+    padding: 0 15px;
+   
+ }
+ 
+ .timeline__content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #F97316
+ }
+ 
+
+ 
+ .timeline__content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+ }
+ 
+ 
+
+ 
+
+
+  
 
