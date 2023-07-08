@@ -158,3 +158,53 @@
     transition: all 0.3s ease;
   }
   
+
+  .brand__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15vh;
+  }
+
+  .brand__scroll--content{
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: 100%;
+
+  }
+
+  .brand__list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10vh;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 10px;
+  }
+
+  
+
+  .brand__item > img{
+    width: 80px;
+
+  }
+
+  @keyframes scroll {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-100%);
+
+    }
+    
+  }
+
