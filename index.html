@@ -18,34 +18,91 @@
      <!-- Navbar section -->
      <nav class="navbar">
       <div class="navbar__container">
-          <a href="/" >
-              <img src="./assets/images/logo.png" id="navbar__logo" alt="logo" >
-          </a>
-
-          <!-- <div class="navbar__toggle" id="mobile-menu">
-              <span class="bar"></span> <span class="bar"></span>
-              <span class="bar"></span>
-            </div> -->
-
-            <ul class="navbar__menu">
-              <li class="navbar_item">
-                  <a href="/" class="navbar__links">Features</a>
-              </li>
-              <li class="navbar_item">
-                  <a href="/" class="navbar__links">Integrations</a>
-              </li>
-              <li class="navbar_item">
-                  <a href="/" class="navbar__links">About</a>
-              </li>
-              <li class="navbar_item">
-                  <a href="/" class="navbar__links">Pricing</a>
-              </li>
-            </ul>
-
-            <button class="navbar__button">Sign in</button>
-
+        <a href="/">
+          <img src="./assets/images/logo.png" id="navbar__logo" alt="logo">
+        </a>
+    
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links" id="feat">Features</a>
+            <i class="fa-solid fa-angle-down arrow"></i>
+            <div class="hidden__cards" id="features">
+              <div class="hidden__section">
+                <div class="hidden__section__item">
+                  <h3>Candidate Search</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste?</p>
+                </div>
+            
+                <div class="hidden__section__item">
+                  <h3>Application Tracking System</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste?</p>
+                </div>
+              </div>
+    
+              <div class="hidden__section">
+                <div class="hidden__section__item">
+                  <h3>Recruitment CRM</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, fuga!</p>
+                </div>
+    
+                <div class="hidden__section__item">
+                  <h3>Report & Analytics</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aut.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+    
+          <li class="navbar__item">
+            <a href="/" class="navbar__links" id="integ">Integrations</a>
+            <i class="fa-solid fa-angle-down arrow"></i>
+            <div class="hidden__cards" id="integrations">
+              <div class="hidden__section">
+                <div class="hidden__section__item">
+                  <h3>Linkedin</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste?</p>
+                </div>
+    
+                <div class="hidden__section__item">
+                  <h3>Glassdoor</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste?</p>
+                </div>
+              </div>
+    
+              <div class="hidden__section">
+                <div class="hidden__section__item">
+                  <h3>Google</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, fuga!</p>
+                </div>
+    
+                <div class="hidden__section__item">
+                  <h3>Indeed</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aut.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+    
+          <li class="navbar_item">
+            <a href="#about" class="navbar__links">About</a>
+          </li>
+    
+          <li class="navbar_item">
+            <a href="#pricing" class="navbar__links">Pricing</a>
+          </li>
+        </ul>
+    
+        <button class="navbar__button">Sign in</button>
       </div>
-  </nav>
+    </nav>
+    
+
+
+ 
+ 
+
+
+  <!-- hero section -->
 
     <div class="main__container">
         <div class="video__container">
@@ -177,13 +234,16 @@
     
     <!-- About section -->
 
-    <div class="about__container">
-      <h2>Who are we?</h2>
+    <div class="about__container" id="about" >
+      <h2 >Who are we?</h2>
       <p id="about__content">We are a team of experienced professionals passionate about transforming the recruitment landscape. Our expertise lies in leveraging technology to simplify and optimize the hiring process. With years of industry knowledge and a deep understanding of the challenges faced by hiring teams, we have developed Recruitly to address the pain points and provide a comprehensive solution.</p>
     </div>
 
-    <div class="pricing">
-      <h2 id="prices">Know our pricing!!</h2>
+
+    <!-- Pricing section -->
+
+    <div class="pricing" id="pricing">
+      <h2 >Know our pricing!!</h2>
    
     
     <div class="card__container">
@@ -261,6 +321,7 @@
     
    
   </body>
+
 
   <script src="./js/index.js"></script>
 </html>

@@ -52,6 +52,22 @@
  
  .navbar__item {
    height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+ }
+
+ .navbar__item:hover{
+  color: #F97316;
+ }
+
+ .arrow{
+  margin-left: -10px;
+ }
+
+ .arrow:hover{
+  color: #F97316;
  }
  
  .navbar__links {
@@ -84,7 +100,7 @@
  }
  
  .navbar__button:hover {
-   color: #000;
+   color: #fff;
    transition: all 0.3s ease;
  }
  
@@ -92,6 +108,58 @@
    color: #F97316;
    transition: all 0.3s ease;
  }
+
+ .hidden__cards {
+  position: absolute;
+  top: 32vh;
+  left: 22vw;
+  width: 55vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  background-color: #222;
+  color: #fff;
+  border-radius: 15px;
+  display: none;
+}
+
+
+.hidden__cards {
+  display: none;
+}
+
+.navbar__item:hover #features {
+  display: grid;
+}
+
+.navbar__item:hover #integrations {
+  display: grid;
+}
+
+
+ .hidden__section{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 25px;
+ }
+
+ .hidden__section__item{
+  text-align: start;
+ }
+
+ .hidden__section__item>h3{
+  color: #F97316;
+ }
+
+ .hidden__section__item>p{
+  font-size: large;
+  text-align: justify;
+ }
+
+
 
 
   .main__container {
