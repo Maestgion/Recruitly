@@ -24,6 +24,8 @@
  nav.scrolled *{
   color: white;
  }
+
+
  
  .navbar__container {
    display: flex;
@@ -58,17 +60,13 @@
    cursor: pointer;
  }
 
- .navbar__item:hover{
-  color: #F97316;
- }
+
 
  .arrow{
-  margin-left: -10px;
+  margin-left: 10px;
  }
 
- .arrow:hover{
-  color: #F97316;
- }
+
  
  .navbar__links {
    color: #000;
@@ -158,6 +156,10 @@
   font-size: large;
   text-align: justify;
  }
+
+ .navbar__links:hover .arrow {
+  color: #F97316;
+}
 
 
 
